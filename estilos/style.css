@@ -20,11 +20,6 @@ body{
 }
 
 main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     
 }
@@ -50,6 +45,7 @@ iframe#tela{
 
 section#redes-sociais{
     text-align: right;
+    align-items: right;
 }
 
 section#redes-sociais img{
@@ -64,5 +60,5 @@ section#redes-sociais img:hover{
     border: 2px solid white;
     transform: translate(-3px -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
-    transition: transform 0.5s, border 1s;
+    transition: transform 0.7s, border 1s;
 }
